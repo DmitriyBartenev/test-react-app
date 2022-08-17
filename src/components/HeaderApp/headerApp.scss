@@ -1,0 +1,40 @@
+.header{
+    height:256px;
+    width:1358px;
+    margin:0 auto;
+    background:url('../resources/img/BannerImage.png');
+    background-repeat: no-repeat;
+    &__nav{
+        margin:0 auto;
+        width:1024px;
+        height:100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        p{
+            color:#111827;
+            font-weight: 600;
+            font-size:24px;
+            line-height: 32px;
+            margin:0 24px 0 20px;
+        }
+        .button{
+            width:119px;
+            height:38px;
+            background-color: #FFFFFF;
+            border-radius: 6px;
+            border:solid 1px #D1D5DB;
+            font-size:14px;
+            line-height: 20px;
+            font-weight: normal;
+            color:#374151;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            img{
+                margin-right: 8px;
+            }
+        }
+    }
+}
